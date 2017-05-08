@@ -1,0 +1,1 @@
+This is a Weather Application, built in React.

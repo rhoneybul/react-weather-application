@@ -5,13 +5,13 @@ var WeatherMessage = ({temp, location}) => {
     if( temp == "err" && location == "err"){
         return(
             <div>
-                <h3>City Not Found.</h3>
+                <h3 className="text-center">City Not Found.</h3>
             </div>
         );
     } else{
         return(
             <div>
-                <h3>It's {temp} degrees in {location}!</h3>
+                <h3 className="text-center">It's {temp} degrees in {location}!</h3>
             </div>
         );
     }
